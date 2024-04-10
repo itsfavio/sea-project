@@ -34,42 +34,42 @@ const photo_list = [
         "iso": 100,
         "aperture": 6.3,
         "shutterSpeed": "1/250",
-        "url": "sea_project_photos\\IMG_0039.jpeg"
+        "url": "sea_project_photos/IMG_0039.jpeg"
     },
     {
         "title": "IMG_0040.jpeg",
         "iso": 100,
         "aperture": 7.1,
         "shutterSpeed": "1/250",
-        "url": "sea_project_photos\\IMG_0040.jpeg"
+        "url": "sea_project_photos/IMG_0040.jpeg"
     },
     {
         "title": "IMG_0042.jpeg",
         "iso": 160,
         "aperture": 5.6,
         "shutterSpeed": "1/160",
-        "url": "sea_project_photos\\IMG_0042.jpeg"
+        "url": "sea_project_photos/IMG_0042.jpeg"
     },
     {
         "title": "IMG_0043.jpeg",
         "iso": 160,
         "aperture": 5.7,
         "shutterSpeed": "1/160",
-        "url": "sea_project_photos\\IMG_0043.jpeg"
+        "url": "sea_project_photos/IMG_0043.jpeg"
     },
     {
         "title": "IMG_0063.jpeg",
         "iso": 100,
         "aperture": 14,
         "shutterSpeed": "1/320",
-        "url": "sea_project_photos\\IMG_0063.jpeg"
+        "url": "sea_project_photos/IMG_0063.jpeg"
     },
     {
         "title": "IMG_0064.jpeg",
         "iso": 400,
         "aperture": 3.5,
         "shutterSpeed": "1/80",
-        "url": "sea_project_photos\\IMG_0064.jpeg"
+        "url": "sea_project_photos/IMG_0064.jpeg"
     },
     {
         "title": "IMG_0065.jpeg",
