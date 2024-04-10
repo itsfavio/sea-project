@@ -28,7 +28,7 @@ const FRESH_PRINCE_URL = "https://upload.wikimedia.org/wikipedia/en/3/33/Fresh_P
 const CURB_POSTER_URL = "https://m.media-amazon.com/images/M/MV5BZDY1ZGM4OGItMWMyNS00MDAyLWE2Y2MtZTFhMTU0MGI5ZDFlXkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_FMjpg_UX1000_.jpg";
 const EAST_LOS_HIGH_POSTER_URL = "https://static.wikia.nocookie.net/hulu/images/6/64/East_Los_High.jpg";
 const TESTING_URL = "https://upload.wikimedia.org/wikipedia/commons/3/36/Eucomis_kuiflelie._07-06-2023._%28d.j.b%29.jpg"
-const photo_list = [
+/*const photo_list = [
     {
         "title": "IMG_0039.jpeg",
         "iso": 100,
@@ -282,8 +282,267 @@ const photo_list = [
         "url": "sea_project_photos\\IMG_9820.jpeg"
     }
 ]
+*/
 
+const photo_list = [
+    {
+        "title": "IMG_0039.jpeg",
+        "iso": 100,
+        "aperture": 6.3,
+        "shutterSpeed": "1/250",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0039.jpeg"
+    },
+    {
+        "title": "IMG_0040.jpeg",
+        "iso": 100,
+        "aperture": 7.1,
+        "shutterSpeed": "1/250",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0040.jpeg"
+    },
+    {
+        "title": "IMG_0042.jpeg",
+        "iso": 160,
+        "aperture": 5.6,
+        "shutterSpeed": "1/160",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0042.jpeg"
 
+    },
+    {
+        "title": "IMG_0043.jpeg",
+        "iso": 160,
+        "aperture": 5.7,
+        "shutterSpeed": "1/160",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0043.jpeg"
+
+    },
+    {
+        "title": "IMG_0063.jpeg",
+        "iso": 100,
+        "aperture": 14,
+        "shutterSpeed": "1/320",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0063.jpeg"
+
+    },
+    {
+        "title": "IMG_0064.jpeg",
+        "iso": 400,
+        "aperture": 3.5,
+        "shutterSpeed": "1/80",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0064.jpeg"
+    },
+    {
+        "title": "IMG_0065.jpeg",
+        "iso": 400,
+        "aperture": 3.5,
+        "shutterSpeed": "1/3",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0065.jpeg"
+
+    },
+    {
+        "title": "IMG_0066.jpeg",
+        "iso": 100,
+        "aperture": 3.5,
+        "shutterSpeed": "1/13",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0066.jpeg"
+
+    },
+    {
+        "title": "IMG_0067.jpeg",
+        "iso": 100,
+        "aperture": 5.6,
+        "shutterSpeed": "1/200",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0067.jpeg"
+    },
+    {
+        "title": "IMG_0068.jpeg",
+        "iso": 250,
+        "aperture": 1.4,
+        "shutterSpeed": "1/2500",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0068.jpeg"
+    },
+    {
+        "title": "IMG_0069.jpeg",
+        "iso": 250,
+        "aperture": 2,
+        "shutterSpeed": "1/1600",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0069.jpeg"
+    },
+    {
+        "title": "IMG_0070.jpeg",
+        "iso": 250,
+        "aperture": 2,
+        "shutterSpeed": "1/1600",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0070.jpeg"
+    },
+    {
+        "title": "IMG_0071.jpeg",
+        "iso": 500,
+        "aperture": 1.8,
+        "shutterSpeed": "1/800",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0071.jpeg"
+    },
+    {
+        "title": "IMG_0072.jpeg",
+        "iso": 250,
+        "aperture": 1.8,
+        "shutterSpeed": "1/640",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0072.jpeg"
+    },
+    {
+        "title": "IMG_0073.jpeg",
+        "iso": 400,
+        "aperture": 7.1,
+        "shutterSpeed": "1/1000",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0073.jpeg"
+    },
+    {
+        "title": "IMG_0074.jpeg",
+        "iso": 400,
+        "aperture": 7.1,
+        "shutterSpeed": "1/1000",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0074.jpeg"
+    },
+    {
+        "title": "IMG_0076.jpeg",
+        "iso": 100,
+        "aperture": 1.4,
+        "shutterSpeed": "1/1600",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0076.jpeg"
+    },
+    {
+        "title": "IMG_0077.jpeg",
+        "iso": 160,
+        "aperture": 1.4,
+        "shutterSpeed": "1/800",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0077.jpeg"
+    },
+    {
+        "title": "IMG_0078.jpeg",
+        "iso": 200,
+        "aperture": 5,
+        "shutterSpeed": "1/800",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0078.jpeg"
+    },
+    {
+        "title": "IMG_0079.jpeg",
+        "iso": 400,
+        "aperture": 18,
+        "shutterSpeed": 25,
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0079.jpeg"
+    },
+    {
+        "title": "IMG_0201.jpeg",
+        "iso": 100,
+        "aperture": 1.8,
+        "shutterSpeed": "1/2500",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0201.jpeg"
+    },
+    {
+        "title": "IMG_0232.jpeg",
+        "iso": 100,
+        "aperture": 5.6,
+        "shutterSpeed": "1/200",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0232.jpeg"
+    },
+    {
+        "title": "IMG_0233.jpeg",
+        "iso": 100,
+        "aperture": 5.6,
+        "shutterSpeed": "1/200",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0233.jpeg"
+    },
+    {
+        "title": "IMG_0509.jpeg",
+        "iso": 100,
+        "aperture": 1.8,
+        "shutterSpeed": "1/500",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0509.jpeg"
+    },
+    {
+        "title": "IMG_0510.jpeg",
+        "iso": 160,
+        "aperture": 1.8,
+        "shutterSpeed": "1/500",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0510.jpeg"
+    },
+    {
+        "title": "IMG_0511.jpeg",
+        "iso": 160,
+        "aperture": 1.8,
+        "shutterSpeed": "1/500",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0511.jpeg"
+    },
+    {
+        "title": "IMG_0512.jpeg",
+        "iso": 100,
+        "aperture": 2.2,
+        "shutterSpeed": "1/320",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0512.jpeg"
+    },
+    {
+        "title": "IMG_0516.jpeg",
+        "iso": 100,
+        "aperture": 2.2,
+        "shutterSpeed": "1/320",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_0516.jpeg"
+    },
+    {
+        "title": "IMG_1489.heic",
+        "iso": 80,
+        "aperture": 1.8,
+        "shutterSpeed": "1/2591",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_1489.jpeg"
+    },
+    {
+        "title": "IMG_2565.jpeg",
+        "iso": 32,
+        "aperture": 2.8,
+        "shutterSpeed": "1/99",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_2565.jpeg"
+    },
+    {
+        "title": "IMG_4284.jpeg",
+        "iso": 100,
+        "aperture": 1.4,
+        "shutterSpeed": "1/2500",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_4284.jpeg"
+    },
+    {
+        "title": "IMG_5495.jpg",
+        "iso": 500,
+        "aperture": 5.6,
+        "shutterSpeed": "1/320",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_5495.jpeg"
+    },
+    {
+        "title": "IMG_5845.jpeg",
+        "iso": 500,
+        "aperture": 1.8,
+        "shutterSpeed": "1/800",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_5845.jpeg"
+    },
+    {
+        "title": "IMG_6283.jpeg",
+        "iso": 160,
+        "aperture": 1.8,
+        "shutterSpeed": "1/500",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_6283.jpeg"
+    },
+    {
+        "title": "IMG_9817.jpeg",
+        "iso": 100,
+        "aperture": 5.6,
+        "shutterSpeed": "1/160",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_9817.jpeg"
+    },
+    {
+        "title": "IMG_9820.jpeg",
+        "iso": 100,
+        "aperture": 5.6,
+        "shutterSpeed": "1/160",
+        "url": "https://github.com/itsfavio/sea_project_photos/blob/main/IMG_9820.jpeg"
+    }
+]
 //let imageURLs = {jsonfile}
 //This is an array of strings (TV show titles)
 let titles = [
