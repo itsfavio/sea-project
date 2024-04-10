@@ -28,7 +28,7 @@ const FRESH_PRINCE_URL = "https://upload.wikimedia.org/wikipedia/en/3/33/Fresh_P
 const CURB_POSTER_URL = "https://m.media-amazon.com/images/M/MV5BZDY1ZGM4OGItMWMyNS00MDAyLWE2Y2MtZTFhMTU0MGI5ZDFlXkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_FMjpg_UX1000_.jpg";
 const EAST_LOS_HIGH_POSTER_URL = "https://static.wikia.nocookie.net/hulu/images/6/64/East_Los_High.jpg";
 const TESTING_URL = "https://upload.wikimedia.org/wikipedia/commons/3/36/Eucomis_kuiflelie._07-06-2023._%28d.j.b%29.jpg"
-/*const photo_list = [
+const photo_list = [
     {
         "title": "IMG_0039.jpeg",
         "iso": 100,
@@ -282,32 +282,7 @@ const TESTING_URL = "https://upload.wikimedia.org/wikipedia/commons/3/36/Eucomis
         "url": "sea_project_photos\\IMG_9820.jpeg"
     }
 ]
-*/
 
-const photo_list = [
-    
-        {
-            "title": "IMG_0039.jpeg",
-            "iso": 100,
-            "aperture": 6.3,
-            "shutterSpeed": "1/250",
-            "url": "https://itsfavio.github.io/sea_project_photos/IMG_0039.jpeg"
-        },
-        {
-            "title": "IMG_0040.jpeg",
-            "iso": 100,
-            "aperture": 7.1,
-            "shutterSpeed": "1/250",
-            "url": "https://itsfavio.github.io/sea_project_photos/IMG_0040.jpeg"
-        },
-        {
-            "title": "IMG_0042.jpeg",
-            "iso": 160,
-            "aperture": 5.6,
-            "shutterSpeed": "1/160",
-            "url": "https://itsfavio.github.io/sea_project_photos/IMG_0042.jpeg"
-        }
-];
 //let imageURLs = {jsonfile}
 //This is an array of strings (TV show titles)
 let titles = [
