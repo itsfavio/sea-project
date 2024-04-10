@@ -12,40 +12,67 @@ body {
 .title {
     text-align: center;
     margin: 0;
-    font-size: 8em;
+    font-size: 5em;
     font-family: "Helvetica";
     font-weight: normal;
     color: white;
 }
 
+/*#card-container {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    margin: 20px;*/
+/*}*/
+
+/*.card {*/
+/*    width: 300px;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 5px;*/
+/*    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+/*    margin: 5px;*/
+/*}*/
+
+/*.card-content {*/
+/*    padding: 20px;*/
+/*    font-family: "Verdana";*/
+/*    color: #777;*/
+/*}*/
+
+/*.card-content h2 {*/
+/*    margin-top: 0;*/
+/*    font-size: 20px;*/
+/*}*/
+
+/*.card img {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*}*/
 #card-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin: 20px;
+    gap: 20px; /* Adjust the space between cards */
+    padding: 20px;
 }
 
 .card {
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 5px;
+    flex: 0 1 calc(25% - 20px); /* Adjust the card width and ensure it includes gap */
+    display: block; /* Override any display: none; */
 }
 
 .card-content {
-    padding: 20px;
-    font-family: "Verdana";
-    color: #777;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    width: 100%; /* Ensure the content does not overflow the card */
 }
 
+.card-content img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+}
 .card-content h2 {
     margin-top: 0;
     font-size: 20px;
-}
-
-.card img {
-    width: 100%;
-    height: auto;
 }
 
 .footer {
@@ -67,4 +94,7 @@ button {
     font-size: 22px;
     cursor: pointer;
     margin: 5px;
+}
+ul{
+    list-style-type: none;
 }
